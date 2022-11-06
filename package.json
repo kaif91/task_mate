@@ -1,0 +1,34 @@
+{
+  "name": "task-mate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "codegen": "graphql-codegen --config codegen.ts"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.1",
+    "@graphql-tools/utils": "^9.0.1",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.24",
+    "@types/react-dom": "18.0.8",
+    "apollo-server-micro": "^3.10.4",
+    "deepmerge": "^4.2.2",
+    "graphql": "^16.6.0",
+    "graphql-tools": "^8.3.10",
+    "next": "13.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "serverless-mysql": "^1.5.4",
+    "typescript": "4.8.4"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.13.11",
+    "@graphql-codegen/typescript": "2.8.1",
+    "@graphql-codegen/typescript-resolvers": "2.7.6",
+    "micro-cors": "^0.1.1"
+  }
+}
